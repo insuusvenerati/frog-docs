@@ -11,7 +11,7 @@ module.exports = {
     themeColor: `#8257E6`,
     basePath: `/`,
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  flags: { FAST_DEV: true },
   plugins: [
     {
       resolve: `@rocketseat/gatsby-theme-docs`,
